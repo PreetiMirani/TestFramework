@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="MyFramework.ValidateLabel">
+        <methods>
+          <include name="validateLabel"/>
+          <include name="loginPage"/>
+        </methods>
+      </class> <!-- MyFramework.ValidateLabel -->
+      <class name="MyFramework.BaseLogin">
+        <methods>
+          <include name="close"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- MyFramework.BaseLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
